@@ -578,6 +578,7 @@ select, input, textarea { font-family: inherit; }
 .snacks-carousel-wrapper {
     position: relative;
     padding: 0 50px;
+    overflow: hidden;
 }
 
 /* Carousel Container */
@@ -591,7 +592,6 @@ select, input, textarea { font-family: inherit; }
 }
 
 .snacks-carousel.is-carousel {
-    overflow: hidden;
     flex-wrap: nowrap;
 }
 
